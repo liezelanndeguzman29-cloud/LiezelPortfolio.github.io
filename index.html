@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Guzman - Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Navigation-->
+    <header class= "header">
+        <nav class = "navbar">
+        <div class = "nav-container">
+            <div class="logo">
+                <h2> Liezel Ann De Guzman </h2>
+            </div>
+
+            <ul class ="nav-menu">
+                <li><a href= "#home" class="nav-link"> Home</a></li>
+                <li><a href= "#skills" class="nav-link"> Skills</a></li>
+                <li><a href= "#about" class="nav-link"> About </a></li>
+                <li><a href= "#project" class="nav-link"> Project</a></li>
+                <li><a href= "#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="humburger">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!--Home Section-->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title"> Hi, I'm <span class="highlight"> Liezel Ann</span> </h1>
+            <p class="hero-subtitle"> An aspiring UI designer who is passionate about transforming ideas into clean and engaging digital interfaces</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary"> View My Work</a>
+                <a href="#contact" class="btn btn-secondary"> Contact Me </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+     <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title"> About Me </h2>
+            <div class="about-content">
+                <div class=""about-image>
+                    <img src="Assets/PPhoto.jpg" alt="Your Profile Photo">
+                </div>
+                <div class="abou-text">
+                    <p>Hello! I'm an inspiring UI designer who believes that good design can improve the way people interact with technology</p>
+                    <p>My goal is to create meaningful and user friendly digital <strong>experiences.</strong></p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Skills Section -->
+     <section id="skils" class="skills">
+        <div class="container">
+            <h2 class ="section-title"> Skills</h2>
+            <div class="skilss-grid">
+                <div class="skill-item">
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="60"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="50"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                <h3>JAVASCRIPT</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="50"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>GIT</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="50"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h2 class="designing-tools">DESIGNING TOOLS</h2>
+                    <h3>FIGMA</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="60"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>CANVA</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>ADOBE XD</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="50"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="soft-skills">
+                <h2> Soft Skills</h2>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Team Collaboration</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+        </div>
+     </section>
+
+
+     <!-- Contact section-->
+      <section id="contact" class="=contact">
+        <div class="container">
+            <h2 class=" section-title"> Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3> Let's work together!!</h3>
+                    <p> liezelanndeguzman3@gmail.com</p>
+                    <div class="social-links">
+                         <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary"> Send Message</button>
+            </form>
+        </div>
+    </div>
+    </section>
+
+    <!-- Resume section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-download">
+                    <a href="Assets/resume.pdf" download class="btn btn-primary"> 
+                        <i class="fas fa-download"></i> Download Resume</a>
+                </div>
+                <div class="resume-preview">
+                    <h3> Education </h3>
+                    <p><strong>Web Programming Essentials</strong></p><br>
+                    <p> STI College Alaminos - 2025</p>
+
+                    <h3> Experience </h3>
+                    <p><strong>ABC Digital Solution</strong></p><br>
+                    <p> Junior UI Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <footer class="footer">
+        <div class="container">
+            <p> &copy; 2025 Liezel Ann De Guzman. All rights reserved </p>
+        </div>
+     </footer>
+
+     <script src="js/script.js"></script>
+</body>
+</html>
